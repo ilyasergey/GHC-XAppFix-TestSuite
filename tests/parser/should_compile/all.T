@@ -94,3 +94,6 @@ test('EmptyDecls', normal, compile, [''])
 test('T5243', extra_clean(['T5243A.hi', 'T5243A.o']),
      multimod_compile, ['T5243',''])
 
+# ApplicativeFix parsing
+test('appfix001', normal, compile, [''])
+
