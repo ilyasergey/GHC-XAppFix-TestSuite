@@ -2,8 +2,8 @@
 
 {-# LANGUAGE ApplicativeFix #-}
 
-module ShouldCompile
+module ShouldCompile where
 
-alet a = undefined
-     b = undefined
-  in a
+foo = alet a = undefined
+           b = undefined
+        in a
