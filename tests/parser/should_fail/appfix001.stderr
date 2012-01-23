@@ -1,0 +1,3 @@
+
+appfix001.hs:8:12:
+    No pattern bindings allowed in alet: Just (b) = undefined
