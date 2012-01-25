@@ -74,3 +74,7 @@ test('readFailTraditionalRecords2', normal, compile_fail, [''])
 test('readFailTraditionalRecords3', normal, compile_fail, [''])
 
 test('T5425', normal, compile_fail, [''])
+
+test('appfix001', normal, compile_fail, [''])
+test('appfix002', normal, compile_fail, [''])
+test('appfix003', normal, compile_fail, [''])
