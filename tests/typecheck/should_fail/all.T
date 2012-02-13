@@ -268,3 +268,5 @@ test('T3592', normal, compile_fail, [''])
 test('T5570', normal, compile_fail, [''])
 test('T5573a', normal, compile_fail, [''])
 test('T5573b', normal, compile_fail, [''])
+
+test('appfix001', normal, compile_fail, [''])

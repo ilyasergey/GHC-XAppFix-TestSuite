@@ -1,0 +1,17 @@
+
+appfix001.hs:11:31:
+    Could not deduce (Monad b) arising from a use of `return'
+    from the context (ApplicativeFix p)
+      bound by the type signature for foo :: ApplicativeFix p => p Bool
+      at appfix001.hs:11:1-48
+    or from (Applicative b)
+      bound by the type signature for
+                 c :: Applicative b => Compose p b Bool
+      at appfix001.hs:11:12-43
+    Possible fix:
+      add (Monad b) to the context of
+        the type signature for c :: Applicative b => Compose p b Bool
+        or the type signature for foo :: ApplicativeFix p => p Bool
+    In the first argument of `pure', namely `(return True)'
+    In the first argument of `Compose', namely `(pure (return True))'
+    In the expression: Compose (pure (return True))
