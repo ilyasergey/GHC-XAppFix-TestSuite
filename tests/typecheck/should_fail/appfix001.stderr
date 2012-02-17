@@ -5,12 +5,10 @@ appfix001.hs:11:31:
       bound by the type signature for foo :: ApplicativeFix p => p Bool
       at appfix001.hs:11:1-48
     or from (Applicative b)
-      bound by the type signature for
-                 c :: Applicative b => Compose p b Bool
-      at appfix001.hs:11:12-43
+      bound by the alet bindings at appfix001.hs:11:7-48
     Possible fix:
       add (Monad b) to the context of
-        the type signature for c :: Applicative b => Compose p b Bool
+        the alet bindings
         or the type signature for foo :: ApplicativeFix p => p Bool
     In the first argument of `pure', namely `(return True)'
     In the first argument of `Compose', namely `(pure (return True))'
